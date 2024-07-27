@@ -3,7 +3,6 @@ import pathspec
 
 class GitignoreHandler:
     def __init__(self, gitignore_paths):
-        print(f"Initializing GitignoreHandler with paths: {gitignore_paths}")
         self.specs = self._load_gitignore_files(gitignore_paths)
 
     def _load_gitignore_files(self, paths):
@@ -21,6 +20,5 @@ class GitignoreHandler:
         for spec, base_dir in self.specs:
             rel_filepath = os.path.relpath(abs_filepath, base_dir)  # Relative to .gitignore's directory
             if spec.match_file(rel_filepath):
-                print(f"File {filepath} is ignored by {base_dir}/.gitignore")
                 return True
         return False

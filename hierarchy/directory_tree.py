@@ -3,7 +3,7 @@ import zipfile
 
 class DirectoryTree:
     def __init__(self, root_dir, gitignore_handler=None):
-        self.root_dir = root_dir
+        self.root_dir = os.path.abspath(root_dir)
         self.gitignore_handler = gitignore_handler
 
     def build_tree_structure(self, prefix=''):

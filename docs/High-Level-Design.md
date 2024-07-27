@@ -1,141 +1,121 @@
-### High Level Design Document for Hierarchy
+### High-Level Design Document
+
+#### Project Name: hierarchy
+
+#### Author: Philip Dye
+
+#### Contact: phdye@acm.org
 
 ---
 
-#### Project Name: Hierarchy
+### 1. Overview
 
-#### Version: 1.0.0
-
----
-
-## Table of Contents
-
-1. **Introduction**
-2. **Objectives**
-3. **System Overview**
-4. **Architecture**
-5. **Components**
-   - 5.1 Main Component
-   - 5.2 DirectoryTree Component
-   - 5.3 GitignoreHandler Component
-   - 5.4 Tests
-6. **Data Flow**
-7. **Installation and Usage**
-8. **Dependencies**
-9. **Assumptions and Constraints**
-
----
-
-### 1. Introduction
-
-The Hierarchy project is a Python-based tool designed to print the directory hierarchy of a given path and create a zip file of the directory contents while respecting `.gitignore` rules. This document outlines the high-level design of the project, detailing the architecture, components, data flow, and usage.
+The `hierarchy` project is a command-line tool designed to generate and display the directory structure of a given directory. It supports ignoring files and directories based on `.gitignore` rules and can optionally generate a zip file of the directory structure.
 
 ### 2. Objectives
 
-- Provide a CLI tool to display the directory structure.
-- Create a zip file of the directory contents.
-- Respect `.gitignore` rules to exclude specified files and directories.
-- Ensure the tool is modular, testable, and follows SOLID principles.
+- **Display Directory Structure**: Recursively display the directory structure starting from a given directory.
+- **Respect .gitignore Rules**: Ignore files and directories based on `.gitignore` patterns.
+- **Handle Symlinks**: Properly handle symbolic links to avoid following them.
+- **Generate Zip File**: Optionally generate a zip file of the directory structure.
+- **Modular Design**: Separate the core functionality from the display logic and ensure the core can be used programmatically.
 
-### 3. System Overview
+### 3. Components
 
-Hierarchy is a command-line tool that scans a specified directory, constructs a tree representation of its structure, and creates a zip archive of its contents. It uses `.gitignore` files to determine which files and directories should be excluded from the archive.
+1. **TreeNode Class**
+   - Represents a node in the directory tree.
+   - Attributes: `name`, `is_directory`, `children`.
+   - Methods: `add_child(node)`, `__repr__()`.
 
-### 4. Architecture
+2. **GitignoreHandler Class**
+   - Manages .gitignore patterns and checks if files or directories should be ignored.
+   - Attributes: `specs`.
+   - Methods: `_load_gitignore_files(paths)`, `is_ignored(filepath)`.
 
-The system is designed using a modular architecture, with each component responsible for a specific functionality. The main components are:
-- **Main Component**: Handles command-line arguments and orchestrates the process.
-- **DirectoryTree Component**: Builds the directory tree and creates the zip archive.
-- **GitignoreHandler Component**: Parses `.gitignore` files and determines which files to exclude.
+3. **DirectoryTree Class**
+   - Builds and manages the directory tree structure.
+   - Attributes: `root_dir`, `gitignore_handler`.
+   - Methods: `build_tree(root_dir=None)`, `create_zip(output_zip)`.
 
-### 5. Components
+4. **Display Logic**
+   - Function: `display_tree(node, prefix='')`.
+   - Recursively displays the directory tree structure starting from a given `TreeNode`.
 
-#### 5.1 Main Component
+5. **Command-Line Interface (CLI)**
+   - Command: `hierarchy`.
+   - Uses `docopt` for argument parsing.
+   - Options: `-h --help`, `--version`, `--zip`.
 
-**Responsibilities**:
-- Parse command-line arguments.
-- Initialize the `GitignoreHandler` and `DirectoryTree` components.
-- Orchestrate the process of building the directory tree and creating the zip file.
+### 4. Workflow
 
-**File**: `hierarchy/main.py`
+1. **Initialize**: 
+   - Parse command-line arguments.
+   - Initialize `GitignoreHandler` with paths to `.gitignore` files.
+   - Initialize `DirectoryTree` with the root directory and `GitignoreHandler`.
 
-#### 5.2 DirectoryTree Component
+2. **Build Tree**:
+   - Call `DirectoryTree.build_tree()` to construct the tree structure using `TreeNode` objects.
 
-**Responsibilities**:
-- Traverse the directory structure.
-- Build a tree representation of the directory.
-- Create a zip archive of the directory contents, excluding ignored files.
+3. **Generate Zip (Optional)**:
+   - If the `--zip` option is specified, call `DirectoryTree.create_zip(output_zip)` to generate a zip file of the directory structure.
 
-**File**: `hierarchy/directory_tree.py`
+4. **Display Tree**:
+   - Call `display_tree(tree_structure)` to display the directory tree structure.
 
-**Class**: `DirectoryTree`
+### 5. Detailed Descriptions
 
-#### 5.3 GitignoreHandler Component
+#### 5.1 TreeNode Class
+- **Purpose**: Represents a node in the directory tree.
+- **Attributes**:
+  - `name`: The name of the file or directory.
+  - `is_directory`: Boolean indicating if the node is a directory.
+  - `children`: List of child `TreeNode` objects.
+- **Methods**:
+  - `add_child(node)`: Adds a child node to the current node.
+  - `__repr__()`: Provides a string representation of the node for debugging.
 
-**Responsibilities**:
-- Parse `.gitignore` files.
-- Determine whether a file or directory should be excluded based on `.gitignore` rules.
+#### 5.2 GitignoreHandler Class
+- **Purpose**: Manages .gitignore patterns and checks if files or directories should be ignored.
+- **Attributes**:
+  - `specs`: List of tuples containing `PathSpec` objects and their base directories.
+- **Methods**:
+  - `_load_gitignore_files(paths)`: Loads .gitignore files and creates `PathSpec` objects.
+  - `is_ignored(filepath)`: Checks if a given file or directory should be ignored based on the .gitignore patterns.
 
-**File**: `hierarchy/gitignore_handler.py`
+#### 5.3 DirectoryTree Class
+- **Purpose**: Builds and manages the directory tree structure.
+- **Attributes**:
+  - `root_dir`: The root directory to start building the tree from.
+  - `gitignore_handler`: An optional handler to check if files or directories are ignored.
+- **Methods**:
+  - `build_tree(root_dir=None)`: Recursively builds the directory tree as a `TreeNode` structure.
+  - `create_zip(output_zip)`: Creates a zip file containing the directory structure.
 
-**Class**: `GitignoreHandler`
+#### 5.4 Display Logic
+- **Function**: `display_tree(node, prefix='')`
+- **Purpose**: Recursively displays the directory tree structure starting from a given `TreeNode`.
+- **Parameters**:
+  - `node`: The current `TreeNode` to display.
+  - `prefix`: The prefix to use for the current level of the tree structure.
 
-#### 5.4 Tests
+#### 5.5 Command-Line Interface (CLI)
+- **Command**: `hierarchy`
+- **Purpose**: Parses command-line arguments and invokes the core functionality.
+- **Options**:
+  - `-h --help`: Shows the help message.
+  - `--version`: Shows the version.
+  - `--zip`: Generates a zip file of the directory structure.
 
-**Responsibilities**:
-- Provide unit tests for the `GitignoreHandler` and `DirectoryTree` components.
-- Ensure the system behaves as expected.
+### 6. Future Enhancements
 
-**Files**:
-- `tests/test_gitignore_handler.py`
-- `tests/test_directory_tree.py`
-- `tests/test_main.py`
+- **Enhanced .gitignore Handling**: Support for multiple .gitignore files in different directories.
+- **Configuration File**: Allow users to specify custom patterns and rules in a configuration file.
+- **Parallel Processing**: Optimize directory traversal using parallel processing for large directories.
 
-### 6. Data Flow
+### 7. Conclusion
 
-1. **Initialization**:
-   - The main script (`main.py`) is executed.
-   - Command-line arguments are parsed to determine the target directory.
-   - `GitignoreHandler` is initialized with paths to `.gitignore` files.
-
-2. **Directory Traversal**:
-   - `DirectoryTree` traverses the directory structure.
-   - For each file and directory, `GitignoreHandler` checks if it should be excluded.
-
-3. **Tree Building**:
-   - `DirectoryTree` builds a tree representation of the directory structure.
-
-4. **Zip Creation**:
-   - `DirectoryTree` creates a zip archive of the directory contents, excluding ignored files.
-
-5. **Output**:
-   - The tree structure is printed to the console.
-   - The zip file is saved to the specified output path.
-
-### 7. Installation and Usage
-
-**Installation**:
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-
-**Usage**:
-```sh
-python -m hierarchy.main [DIRECTORY]
-```
-- `DIRECTORY`: The target directory to list and zip (default: current directory).
-
-### 8. Dependencies
-
-- `gitignore-parser`: Used to parse `.gitignore` files.
-- `argparse`: Used for command-line argument parsing.
-- `zipfile`: Used for creating zip archives.
-
-### 9. Assumptions and Constraints
-
-- The tool assumes that `.gitignore` files are present and correctly formatted.
-- The tool is designed to run on systems where Python 3.6 or higher is installed.
-- The tool respects the `.gitignore` rules and excludes specified files and directories from the output.
+The `hierarchy` project provides a flexible and efficient way to display and manage directory structures while respecting .gitignore rules. By separating core functionality from display logic and using a tree data structure, the project ensures modularity and ease of maintenance. Future enhancements can further improve its functionality and performance.
 
 ---
 
-This high-level design document provides an overview of the Hierarchy project, detailing its components, architecture, and data flow. This should serve as a guide for understanding the system's design and functionality.
+This high-level design document provides an overview of the `hierarchy` project, outlining its objectives, components, workflow, and future enhancements. Please review the document and let me know if there are any adjustments or additional details needed.

@@ -1,0 +1,1881 @@
+Script started on 2024-07-27 14:19:21-04:00 [COMMAND="( set -x && poetry run python -m hierarchy.main . )" TERM="screen.xterm-256color" TTY="/dev/pty6" COLUMNS="142" LINES="45"]
++ poetry run python -m hierarchy.main .
+Starting main function
+Resolved directory: /c/-/self/src/command/hierarchy
+Gitignore paths: ['/c/-/self/src/command/hierarchy/.gitignore', '/home/phdyex/.gitignore', '/etc/gitignore']
+Initializing GitignoreHandler with paths: ['/c/-/self/src/command/hierarchy/.gitignore', '/home/phdyex/.gitignore', '/etc/gitignore']
+Initialized GitignoreHandler
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy
+Initialized DirectoryTree
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/.kiel
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/.kiel/011
+File /c/-/self/src/command/hierarchy/.kiel/011/prompt.txt is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/.kiel/011/prompt.txt~ is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/bin
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/__pycache__/_virtualenv.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/__pycache__/docopt.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_distutils_hack
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_distutils_hack/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_distutils_hack/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest/_code
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest/_io
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest/assertion
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest/config
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/_pytest/mark
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_cmp.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_compat.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_config.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_funcs.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_make.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_next_gen.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/_version_info.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/converters.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/exceptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/filters.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/setters.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attr/__pycache__/validators.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attrs
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attrs-23.2.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/attrs-23.2.0.dist-info/licenses
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/docopt-0.6.2.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/hierarchy-0.1.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/iniconfig
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/iniconfig-2.0.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/iniconfig-2.0.0.dist-info/licenses
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/packaging
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/packaging-24.1.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/_meta.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/gitignore.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/pathspec.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/pattern.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/__pycache__/util.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/patterns
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/patterns/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/patterns/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec/patterns/__pycache__/gitwildmatch.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pathspec-0.12.1.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/__pycache__/__main__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__/build_env.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__/configuration.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__/exceptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/__pycache__/pyproject.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/autocompletion.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/base_command.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/cmdoptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/command_context.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/index_command.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/main.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/main_parser.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/parser.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/spinners.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/cli/__pycache__/status_codes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/commands
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/commands/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/commands/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/commands/__pycache__/uninstall.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/distributions
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/index
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations/__pycache__/_distutils.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations/__pycache__/_sysconfig.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/locations/__pycache__/base.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/__pycache__/_json.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/__pycache__/base.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/__pycache__/pkg_resources.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/metadata/importlib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/direct_url.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/format_control.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/index.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/link.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/scheme.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/search_scope.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/target_python.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/models/__pycache__/wheel.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network/__pycache__/auth.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network/__pycache__/cache.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/network/__pycache__/session.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build/__pycache__/metadata.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build/__pycache__/metadata_editable.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/build/__pycache__/metadata_legacy.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/install
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/install/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/install/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/install/__pycache__/editable_legacy.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/operations/install/__pycache__/wheel.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/constructors.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/req_file.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/req_install.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/req_set.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/req/__pycache__/req_uninstall.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/resolution
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/resolution/legacy
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/_jaraco_text.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/_log.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/appdirs.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/compat.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/compatibility_tags.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/deprecation.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/egg_link.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/encoding.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/filesystem.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/filetypes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/glibc.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/hashes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/logging.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/misc.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/packaging.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/setuptools_build.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/subprocess.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/temp_dir.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/unpacking.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/urls.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/virtualenv.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/utils/__pycache__/wheel.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/bazaar.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/git.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/mercurial.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/subversion.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_internal/vcs/__pycache__/versioncontrol.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/adapter.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/cache.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/controller.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/filewrapper.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/serialize.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/__pycache__/wrapper.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches/__pycache__/file_cache.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches/__pycache__/redis_cache.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/certifi
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/certifi/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/certifi/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/certifi/__pycache__/core.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__/compat.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__/resources.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__/scripts.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/__pycache__/util.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/t32.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/t64-arm.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/t64.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/w32.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/w64-arm.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distlib/w64.exe is ignored by /home/phdyex/.config/git/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/distro
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__/core.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__/idnadata.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__/intranges.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/idna/__pycache__/package_data.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack/__pycache__/exceptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack/__pycache__/ext.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/msgpack/__pycache__/fallback.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_elffile.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_manylinux.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_musllinux.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_parser.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_structures.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/_tokenizer.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/markers.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/requirements.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/specifiers.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/tags.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/utils.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/packaging/__pycache__/version.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pkg_resources
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pkg_resources/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pkg_resources/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs/__pycache__/api.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs/__pycache__/unix.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/platformdirs/__pycache__/version.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/filter.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/lexer.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/modeline.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/plugin.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/regexopt.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/style.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/token.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/__pycache__/util.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/filters
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/filters/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/filters/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/formatters
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/lexers
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/lexers/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/lexers/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/lexers/__pycache__/_mapping.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/styles
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/styles/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/styles/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pygments/styles/__pycache__/_mapping.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/__pycache__/_impl.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/__version__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/_internal_utils.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/adapters.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/api.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/auth.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/certs.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/compat.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/cookies.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/exceptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/hooks.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/models.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/packages.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/sessions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/status_codes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/structures.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/requests/__pycache__/utils.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/resolvelib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/resolvelib/compat
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_cell_widths.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_emoji_codes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_emoji_replace.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_export_format.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_extension.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_fileno.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_log_render.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_loop.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_null_file.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_palettes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_pick.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_ratio.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/_wrap.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/abc.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/align.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/box.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/cells.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/color.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/color_triplet.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/columns.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/console.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/constrain.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/containers.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/control.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/default_styles.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/emoji.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/errors.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/highlighter.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/jupyter.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/logging.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/markup.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/measure.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/padding.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/pager.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/palette.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/panel.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/pretty.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/protocol.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/region.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/repr.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/scope.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/screen.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/segment.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/style.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/styled.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/syntax.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/table.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/terminal_theme.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/text.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/theme.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/themes.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/rich/__pycache__/traceback.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/_asyncio.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/_utils.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/after.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/before.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/before_sleep.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/nap.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/retry.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/stop.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tenacity/__pycache__/wait.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli/__pycache__/_parser.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli/__pycache__/_re.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/tomli/__pycache__/_types.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/truststore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/_collections.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/_version.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/connection.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/connectionpool.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/exceptions.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/fields.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/filepost.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/poolmanager.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/request.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/__pycache__/response.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/__pycache__/_appengine_environ.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/__pycache__/socks.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/packages
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/__pycache__/six.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/backports
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/connection.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/proxy.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/queue.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/request.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/response.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/retry.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/ssl_.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/ssl_match_hostname.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/ssltransport.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/timeout.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/url.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip/_vendor/urllib3/util/__pycache__/wait.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pip-24.1.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/backports
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/importlib_resources
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/jaraco
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/jaraco/functools
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/jaraco/text
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/more_itertools
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/packaging
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/_vendor/platformdirs
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pkg_resources/extern
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pluggy
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pluggy-1.5.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_code
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_io
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_log
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_path
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_process
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_vendored_packages
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_vendored_packages/apipkg
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_vendored_packages/apipkg-2.0.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_vendored_packages/iniconfig
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.1.1.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/py-1.11.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pytest
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/pytest-6.2.5.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_distutils
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_distutils/command
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_distutils/compat
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/backports
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/importlib_metadata
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/importlib_resources
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/jaraco
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/jaraco/functools
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/jaraco/text
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/more_itertools
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/packaging
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/tomli
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/_vendor/wheel
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/cli-32.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/cli-64.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/cli-arm64.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/cli.exe is ignored by /home/phdyex/.config/git/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/command
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/compat
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/config
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/config/_validate_pyproject
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/extern
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/gui-32.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/gui-64.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/gui-arm64.exe is ignored by /home/phdyex/.config/git/.gitignore
+File /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools/gui.exe is ignored by /home/phdyex/.config/git/.gitignore
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/setuptools-70.1.0.dist-info
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/toml
+Initialized DirectoryTree with root: /home/phdyex/.cache/pypoetry/virtualenvs/hierarchy-jWdagKKn-py3.9/lib/python3.9/site-packages/toml-0.10.2.dist-info
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/docs
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy/__pycache__
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/directory_tree.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/gitignore_handler.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/main.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy/bin
+File /c/-/self/src/command/hierarchy/raw is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy/__pycache__
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/directory_tree.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/gitignore_handler.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/main.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/hierarchy/bin
+Initialized DirectoryTree with root: /c/-/self/src/command/hierarchy/tests
+File /c/-/self/src/command/hierarchy/raw is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/.kiel/011/prompt.txt is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/.kiel/011/prompt.txt~ is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/directory_tree.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/gitignore_handler.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/main.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+File /c/-/self/src/command/hierarchy/hierarchy/__pycache__/__init__.cpython-39.pyc is ignored by /c/-/self/src/command/hierarchy/.gitignore
+Created zip file
+hierarchy/
+├── .gitignore
+├── .kiel/
+│   .kiel/
+│   └── 011/
+│       011/
+├── .venv/
+│   hierarchy-jWdagKKn-py3.9/
+│   ├── .gitignore
+│   ├── bin/
+│   │   bin/
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── activate.nu
+│   │   ├── activate.ps1
+│   │   ├── activate_this.py
+│   │   ├── pip
+│   │   ├── pip-3.9
+│   │   ├── pip3
+│   │   ├── pip3.9
+│   │   ├── py.test
+│   │   ├── pytest
+│   │   ├── python
+│   │   ├── python3
+│   │   └── python3.9
+│   ├── lib/
+│   │   lib/
+│   │   └── python3.9/
+│   │       python3.9/
+│   │       └── site-packages/
+│   │           site-packages/
+│   │           ├── __pycache__/
+│   │           │   __pycache__/
+│   │           ├── _distutils_hack/
+│   │           │   _distutils_hack/
+│   │           │   ├── __init__.py
+│   │           │   ├── __pycache__/
+│   │           │   │   __pycache__/
+│   │           │   └── override.py
+│   │           ├── _pytest/
+│   │           │   _pytest/
+│   │           │   ├── __init__.py
+│   │           │   ├── _argcomplete.py
+│   │           │   ├── _code/
+│   │           │   │   _code/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── code.py
+│   │           │   │   └── source.py
+│   │           │   ├── _io/
+│   │           │   │   _io/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── saferepr.py
+│   │           │   │   ├── terminalwriter.py
+│   │           │   │   └── wcwidth.py
+│   │           │   ├── _version.py
+│   │           │   ├── assertion/
+│   │           │   │   assertion/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── rewrite.py
+│   │           │   │   ├── truncate.py
+│   │           │   │   └── util.py
+│   │           │   ├── cacheprovider.py
+│   │           │   ├── capture.py
+│   │           │   ├── compat.py
+│   │           │   ├── config/
+│   │           │   │   config/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── argparsing.py
+│   │           │   │   ├── exceptions.py
+│   │           │   │   └── findpaths.py
+│   │           │   ├── debugging.py
+│   │           │   ├── deprecated.py
+│   │           │   ├── doctest.py
+│   │           │   ├── faulthandler.py
+│   │           │   ├── fixtures.py
+│   │           │   ├── freeze_support.py
+│   │           │   ├── helpconfig.py
+│   │           │   ├── hookspec.py
+│   │           │   ├── junitxml.py
+│   │           │   ├── logging.py
+│   │           │   ├── main.py
+│   │           │   ├── mark/
+│   │           │   │   mark/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── expression.py
+│   │           │   │   └── structures.py
+│   │           │   ├── monkeypatch.py
+│   │           │   ├── nodes.py
+│   │           │   ├── nose.py
+│   │           │   ├── outcomes.py
+│   │           │   ├── pastebin.py
+│   │           │   ├── pathlib.py
+│   │           │   ├── py.typed
+│   │           │   ├── pytester.py
+│   │           │   ├── pytester_assertions.py
+│   │           │   ├── python.py
+│   │           │   ├── python_api.py
+│   │           │   ├── recwarn.py
+│   │           │   ├── reports.py
+│   │           │   ├── runner.py
+│   │           │   ├── setuponly.py
+│   │           │   ├── setupplan.py
+│   │           │   ├── skipping.py
+│   │           │   ├── stepwise.py
+│   │           │   ├── store.py
+│   │           │   ├── terminal.py
+│   │           │   ├── threadexception.py
+│   │           │   ├── timing.py
+│   │           │   ├── tmpdir.py
+│   │           │   ├── unittest.py
+│   │           │   ├── unraisableexception.py
+│   │           │   ├── warning_types.py
+│   │           │   └── warnings.py
+│   │           ├── _virtualenv.pth
+│   │           ├── _virtualenv.py
+│   │           ├── attr/
+│   │           │   attr/
+│   │           │   ├── __init__.py
+│   │           │   ├── __init__.pyi
+│   │           │   ├── __pycache__/
+│   │           │   │   __pycache__/
+│   │           │   ├── _cmp.py
+│   │           │   ├── _cmp.pyi
+│   │           │   ├── _compat.py
+│   │           │   ├── _config.py
+│   │           │   ├── _funcs.py
+│   │           │   ├── _make.py
+│   │           │   ├── _next_gen.py
+│   │           │   ├── _typing_compat.pyi
+│   │           │   ├── _version_info.py
+│   │           │   ├── _version_info.pyi
+│   │           │   ├── converters.py
+│   │           │   ├── converters.pyi
+│   │           │   ├── exceptions.py
+│   │           │   ├── exceptions.pyi
+│   │           │   ├── filters.py
+│   │           │   ├── filters.pyi
+│   │           │   ├── py.typed
+│   │           │   ├── setters.py
+│   │           │   ├── setters.pyi
+│   │           │   ├── validators.py
+│   │           │   └── validators.pyi
+│   │           ├── attrs/
+│   │           │   attrs/
+│   │           │   ├── __init__.py
+│   │           │   ├── __init__.pyi
+│   │           │   ├── converters.py
+│   │           │   ├── exceptions.py
+│   │           │   ├── filters.py
+│   │           │   ├── py.typed
+│   │           │   ├── setters.py
+│   │           │   └── validators.py
+│   │           ├── attrs-23.2.0.dist-info/
+│   │           │   attrs-23.2.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   └── licenses/
+│   │           │       licenses/
+│   │           │       └── LICENSE
+│   │           ├── distutils-precedence.pth
+│   │           ├── docopt-0.6.2.dist-info/
+│   │           │   docopt-0.6.2.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE-MIT
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   └── top_level.txt
+│   │           ├── docopt.py
+│   │           ├── hierarchy-0.1.0.dist-info/
+│   │           │   hierarchy-0.1.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   └── direct_url.json
+│   │           ├── hierarchy.pth
+│   │           ├── iniconfig/
+│   │           │   iniconfig/
+│   │           │   ├── __init__.py
+│   │           │   ├── _parse.py
+│   │           │   ├── _version.py
+│   │           │   ├── exceptions.py
+│   │           │   └── py.typed
+│   │           ├── iniconfig-2.0.0.dist-info/
+│   │           │   iniconfig-2.0.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   └── licenses/
+│   │           │       licenses/
+│   │           │       └── LICENSE
+│   │           ├── packaging/
+│   │           │   packaging/
+│   │           │   ├── __init__.py
+│   │           │   ├── _elffile.py
+│   │           │   ├── _manylinux.py
+│   │           │   ├── _musllinux.py
+│   │           │   ├── _parser.py
+│   │           │   ├── _structures.py
+│   │           │   ├── _tokenizer.py
+│   │           │   ├── markers.py
+│   │           │   ├── metadata.py
+│   │           │   ├── py.typed
+│   │           │   ├── requirements.py
+│   │           │   ├── specifiers.py
+│   │           │   ├── tags.py
+│   │           │   ├── utils.py
+│   │           │   └── version.py
+│   │           ├── packaging-24.1.dist-info/
+│   │           │   packaging-24.1.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── LICENSE.APACHE
+│   │           │   ├── LICENSE.BSD
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   └── WHEEL
+│   │           ├── pathspec/
+│   │           │   pathspec/
+│   │           │   ├── __init__.py
+│   │           │   ├── __pycache__/
+│   │           │   │   __pycache__/
+│   │           │   ├── _meta.py
+│   │           │   ├── gitignore.py
+│   │           │   ├── pathspec.py
+│   │           │   ├── pattern.py
+│   │           │   ├── patterns/
+│   │           │   │   patterns/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── __pycache__/
+│   │           │   │   │   __pycache__/
+│   │           │   │   └── gitwildmatch.py
+│   │           │   ├── py.typed
+│   │           │   └── util.py
+│   │           ├── pathspec-0.12.1.dist-info/
+│   │           │   pathspec-0.12.1.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   └── WHEEL
+│   │           ├── pip/
+│   │           │   pip/
+│   │           │   ├── __init__.py
+│   │           │   ├── __main__.py
+│   │           │   ├── __pip-runner__.py
+│   │           │   ├── __pycache__/
+│   │           │   │   __pycache__/
+│   │           │   ├── _internal/
+│   │           │   │   _internal/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── __pycache__/
+│   │           │   │   │   __pycache__/
+│   │           │   │   ├── build_env.py
+│   │           │   │   ├── cache.py
+│   │           │   │   ├── cli/
+│   │           │   │   │   cli/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── autocompletion.py
+│   │           │   │   │   ├── base_command.py
+│   │           │   │   │   ├── cmdoptions.py
+│   │           │   │   │   ├── command_context.py
+│   │           │   │   │   ├── index_command.py
+│   │           │   │   │   ├── main.py
+│   │           │   │   │   ├── main_parser.py
+│   │           │   │   │   ├── parser.py
+│   │           │   │   │   ├── progress_bars.py
+│   │           │   │   │   ├── req_command.py
+│   │           │   │   │   ├── spinners.py
+│   │           │   │   │   └── status_codes.py
+│   │           │   │   ├── commands/
+│   │           │   │   │   commands/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── cache.py
+│   │           │   │   │   ├── check.py
+│   │           │   │   │   ├── completion.py
+│   │           │   │   │   ├── configuration.py
+│   │           │   │   │   ├── debug.py
+│   │           │   │   │   ├── download.py
+│   │           │   │   │   ├── freeze.py
+│   │           │   │   │   ├── hash.py
+│   │           │   │   │   ├── help.py
+│   │           │   │   │   ├── index.py
+│   │           │   │   │   ├── inspect.py
+│   │           │   │   │   ├── install.py
+│   │           │   │   │   ├── list.py
+│   │           │   │   │   ├── search.py
+│   │           │   │   │   ├── show.py
+│   │           │   │   │   ├── uninstall.py
+│   │           │   │   │   └── wheel.py
+│   │           │   │   ├── configuration.py
+│   │           │   │   ├── distributions/
+│   │           │   │   │   distributions/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── base.py
+│   │           │   │   │   ├── installed.py
+│   │           │   │   │   ├── sdist.py
+│   │           │   │   │   └── wheel.py
+│   │           │   │   ├── exceptions.py
+│   │           │   │   ├── index/
+│   │           │   │   │   index/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── collector.py
+│   │           │   │   │   ├── package_finder.py
+│   │           │   │   │   └── sources.py
+│   │           │   │   ├── locations/
+│   │           │   │   │   locations/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _distutils.py
+│   │           │   │   │   ├── _sysconfig.py
+│   │           │   │   │   └── base.py
+│   │           │   │   ├── main.py
+│   │           │   │   ├── metadata/
+│   │           │   │   │   metadata/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _json.py
+│   │           │   │   │   ├── base.py
+│   │           │   │   │   ├── importlib/
+│   │           │   │   │   │   importlib/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── _compat.py
+│   │           │   │   │   │   ├── _dists.py
+│   │           │   │   │   │   └── _envs.py
+│   │           │   │   │   └── pkg_resources.py
+│   │           │   │   ├── models/
+│   │           │   │   │   models/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── candidate.py
+│   │           │   │   │   ├── direct_url.py
+│   │           │   │   │   ├── format_control.py
+│   │           │   │   │   ├── index.py
+│   │           │   │   │   ├── installation_report.py
+│   │           │   │   │   ├── link.py
+│   │           │   │   │   ├── scheme.py
+│   │           │   │   │   ├── search_scope.py
+│   │           │   │   │   ├── selection_prefs.py
+│   │           │   │   │   ├── target_python.py
+│   │           │   │   │   └── wheel.py
+│   │           │   │   ├── network/
+│   │           │   │   │   network/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── auth.py
+│   │           │   │   │   ├── cache.py
+│   │           │   │   │   ├── download.py
+│   │           │   │   │   ├── lazy_wheel.py
+│   │           │   │   │   ├── session.py
+│   │           │   │   │   ├── utils.py
+│   │           │   │   │   └── xmlrpc.py
+│   │           │   │   ├── operations/
+│   │           │   │   │   operations/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── build/
+│   │           │   │   │   │   build/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── build_tracker.py
+│   │           │   │   │   │   ├── metadata.py
+│   │           │   │   │   │   ├── metadata_editable.py
+│   │           │   │   │   │   ├── metadata_legacy.py
+│   │           │   │   │   │   ├── wheel.py
+│   │           │   │   │   │   ├── wheel_editable.py
+│   │           │   │   │   │   └── wheel_legacy.py
+│   │           │   │   │   ├── check.py
+│   │           │   │   │   ├── freeze.py
+│   │           │   │   │   ├── install/
+│   │           │   │   │   │   install/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── editable_legacy.py
+│   │           │   │   │   │   └── wheel.py
+│   │           │   │   │   └── prepare.py
+│   │           │   │   ├── pyproject.py
+│   │           │   │   ├── req/
+│   │           │   │   │   req/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── constructors.py
+│   │           │   │   │   ├── req_file.py
+│   │           │   │   │   ├── req_install.py
+│   │           │   │   │   ├── req_set.py
+│   │           │   │   │   └── req_uninstall.py
+│   │           │   │   ├── resolution/
+│   │           │   │   │   resolution/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── base.py
+│   │           │   │   │   ├── legacy/
+│   │           │   │   │   │   legacy/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   └── resolver.py
+│   │           │   │   │   └── resolvelib/
+│   │           │   │   │       resolvelib/
+│   │           │   │   │       ├── __init__.py
+│   │           │   │   │       ├── base.py
+│   │           │   │   │       ├── candidates.py
+│   │           │   │   │       ├── factory.py
+│   │           │   │   │       ├── found_candidates.py
+│   │           │   │   │       ├── provider.py
+│   │           │   │   │       ├── reporter.py
+│   │           │   │   │       ├── requirements.py
+│   │           │   │   │       └── resolver.py
+│   │           │   │   ├── self_outdated_check.py
+│   │           │   │   ├── utils/
+│   │           │   │   │   utils/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _jaraco_text.py
+│   │           │   │   │   ├── _log.py
+│   │           │   │   │   ├── appdirs.py
+│   │           │   │   │   ├── compat.py
+│   │           │   │   │   ├── compatibility_tags.py
+│   │           │   │   │   ├── datetime.py
+│   │           │   │   │   ├── deprecation.py
+│   │           │   │   │   ├── direct_url_helpers.py
+│   │           │   │   │   ├── egg_link.py
+│   │           │   │   │   ├── encoding.py
+│   │           │   │   │   ├── entrypoints.py
+│   │           │   │   │   ├── filesystem.py
+│   │           │   │   │   ├── filetypes.py
+│   │           │   │   │   ├── glibc.py
+│   │           │   │   │   ├── hashes.py
+│   │           │   │   │   ├── logging.py
+│   │           │   │   │   ├── misc.py
+│   │           │   │   │   ├── packaging.py
+│   │           │   │   │   ├── setuptools_build.py
+│   │           │   │   │   ├── subprocess.py
+│   │           │   │   │   ├── temp_dir.py
+│   │           │   │   │   ├── unpacking.py
+│   │           │   │   │   ├── urls.py
+│   │           │   │   │   ├── virtualenv.py
+│   │           │   │   │   └── wheel.py
+│   │           │   │   ├── vcs/
+│   │           │   │   │   vcs/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── bazaar.py
+│   │           │   │   │   ├── git.py
+│   │           │   │   │   ├── mercurial.py
+│   │           │   │   │   ├── subversion.py
+│   │           │   │   │   └── versioncontrol.py
+│   │           │   │   └── wheel_builder.py
+│   │           │   ├── _vendor/
+│   │           │   │   _vendor/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── __pycache__/
+│   │           │   │   │   __pycache__/
+│   │           │   │   ├── cachecontrol/
+│   │           │   │   │   cachecontrol/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _cmd.py
+│   │           │   │   │   ├── adapter.py
+│   │           │   │   │   ├── cache.py
+│   │           │   │   │   ├── caches/
+│   │           │   │   │   │   caches/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── file_cache.py
+│   │           │   │   │   │   └── redis_cache.py
+│   │           │   │   │   ├── controller.py
+│   │           │   │   │   ├── filewrapper.py
+│   │           │   │   │   ├── heuristics.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── serialize.py
+│   │           │   │   │   └── wrapper.py
+│   │           │   │   ├── certifi/
+│   │           │   │   │   certifi/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── cacert.pem
+│   │           │   │   │   ├── core.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── distlib/
+│   │           │   │   │   distlib/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── compat.py
+│   │           │   │   │   ├── database.py
+│   │           │   │   │   ├── index.py
+│   │           │   │   │   ├── locators.py
+│   │           │   │   │   ├── manifest.py
+│   │           │   │   │   ├── markers.py
+│   │           │   │   │   ├── metadata.py
+│   │           │   │   │   ├── resources.py
+│   │           │   │   │   ├── scripts.py
+│   │           │   │   │   ├── util.py
+│   │           │   │   │   ├── version.py
+│   │           │   │   │   └── wheel.py
+│   │           │   │   ├── distro/
+│   │           │   │   │   distro/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── distro.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── idna/
+│   │           │   │   │   idna/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── codec.py
+│   │           │   │   │   ├── compat.py
+│   │           │   │   │   ├── core.py
+│   │           │   │   │   ├── idnadata.py
+│   │           │   │   │   ├── intranges.py
+│   │           │   │   │   ├── package_data.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   └── uts46data.py
+│   │           │   │   ├── msgpack/
+│   │           │   │   │   msgpack/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── exceptions.py
+│   │           │   │   │   ├── ext.py
+│   │           │   │   │   └── fallback.py
+│   │           │   │   ├── packaging/
+│   │           │   │   │   packaging/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _elffile.py
+│   │           │   │   │   ├── _manylinux.py
+│   │           │   │   │   ├── _musllinux.py
+│   │           │   │   │   ├── _parser.py
+│   │           │   │   │   ├── _structures.py
+│   │           │   │   │   ├── _tokenizer.py
+│   │           │   │   │   ├── markers.py
+│   │           │   │   │   ├── metadata.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── requirements.py
+│   │           │   │   │   ├── specifiers.py
+│   │           │   │   │   ├── tags.py
+│   │           │   │   │   ├── utils.py
+│   │           │   │   │   └── version.py
+│   │           │   │   ├── pkg_resources/
+│   │           │   │   │   pkg_resources/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   └── __pycache__/
+│   │           │   │   │       __pycache__/
+│   │           │   │   ├── platformdirs/
+│   │           │   │   │   platformdirs/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── android.py
+│   │           │   │   │   ├── api.py
+│   │           │   │   │   ├── macos.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── unix.py
+│   │           │   │   │   ├── version.py
+│   │           │   │   │   └── windows.py
+│   │           │   │   ├── pygments/
+│   │           │   │   │   pygments/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── cmdline.py
+│   │           │   │   │   ├── console.py
+│   │           │   │   │   ├── filter.py
+│   │           │   │   │   ├── filters/
+│   │           │   │   │   │   filters/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   └── __pycache__/
+│   │           │   │   │   │       __pycache__/
+│   │           │   │   │   ├── formatter.py
+│   │           │   │   │   ├── formatters/
+│   │           │   │   │   │   formatters/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── _mapping.py
+│   │           │   │   │   │   ├── bbcode.py
+│   │           │   │   │   │   ├── groff.py
+│   │           │   │   │   │   ├── html.py
+│   │           │   │   │   │   ├── img.py
+│   │           │   │   │   │   ├── irc.py
+│   │           │   │   │   │   ├── latex.py
+│   │           │   │   │   │   ├── other.py
+│   │           │   │   │   │   ├── pangomarkup.py
+│   │           │   │   │   │   ├── rtf.py
+│   │           │   │   │   │   ├── svg.py
+│   │           │   │   │   │   ├── terminal.py
+│   │           │   │   │   │   └── terminal256.py
+│   │           │   │   │   ├── lexer.py
+│   │           │   │   │   ├── lexers/
+│   │           │   │   │   │   lexers/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── _mapping.py
+│   │           │   │   │   │   └── python.py
+│   │           │   │   │   ├── modeline.py
+│   │           │   │   │   ├── plugin.py
+│   │           │   │   │   ├── regexopt.py
+│   │           │   │   │   ├── scanner.py
+│   │           │   │   │   ├── sphinxext.py
+│   │           │   │   │   ├── style.py
+│   │           │   │   │   ├── styles/
+│   │           │   │   │   │   styles/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   └── _mapping.py
+│   │           │   │   │   ├── token.py
+│   │           │   │   │   ├── unistring.py
+│   │           │   │   │   └── util.py
+│   │           │   │   ├── pyproject_hooks/
+│   │           │   │   │   pyproject_hooks/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _compat.py
+│   │           │   │   │   ├── _impl.py
+│   │           │   │   │   └── _in_process/
+│   │           │   │   │       _in_process/
+│   │           │   │   │       ├── __init__.py
+│   │           │   │   │       ├── __pycache__/
+│   │           │   │   │       │   __pycache__/
+│   │           │   │   │       └── _in_process.py
+│   │           │   │   ├── requests/
+│   │           │   │   │   requests/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── __version__.py
+│   │           │   │   │   ├── _internal_utils.py
+│   │           │   │   │   ├── adapters.py
+│   │           │   │   │   ├── api.py
+│   │           │   │   │   ├── auth.py
+│   │           │   │   │   ├── certs.py
+│   │           │   │   │   ├── compat.py
+│   │           │   │   │   ├── cookies.py
+│   │           │   │   │   ├── exceptions.py
+│   │           │   │   │   ├── help.py
+│   │           │   │   │   ├── hooks.py
+│   │           │   │   │   ├── models.py
+│   │           │   │   │   ├── packages.py
+│   │           │   │   │   ├── sessions.py
+│   │           │   │   │   ├── status_codes.py
+│   │           │   │   │   ├── structures.py
+│   │           │   │   │   └── utils.py
+│   │           │   │   ├── resolvelib/
+│   │           │   │   │   resolvelib/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── compat/
+│   │           │   │   │   │   compat/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   └── collections_abc.py
+│   │           │   │   │   ├── providers.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── reporters.py
+│   │           │   │   │   ├── resolvers.py
+│   │           │   │   │   └── structs.py
+│   │           │   │   ├── rich/
+│   │           │   │   │   rich/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _cell_widths.py
+│   │           │   │   │   ├── _emoji_codes.py
+│   │           │   │   │   ├── _emoji_replace.py
+│   │           │   │   │   ├── _export_format.py
+│   │           │   │   │   ├── _extension.py
+│   │           │   │   │   ├── _fileno.py
+│   │           │   │   │   ├── _inspect.py
+│   │           │   │   │   ├── _log_render.py
+│   │           │   │   │   ├── _loop.py
+│   │           │   │   │   ├── _null_file.py
+│   │           │   │   │   ├── _palettes.py
+│   │           │   │   │   ├── _pick.py
+│   │           │   │   │   ├── _ratio.py
+│   │           │   │   │   ├── _spinners.py
+│   │           │   │   │   ├── _stack.py
+│   │           │   │   │   ├── _timer.py
+│   │           │   │   │   ├── _win32_console.py
+│   │           │   │   │   ├── _windows.py
+│   │           │   │   │   ├── _windows_renderer.py
+│   │           │   │   │   ├── _wrap.py
+│   │           │   │   │   ├── abc.py
+│   │           │   │   │   ├── align.py
+│   │           │   │   │   ├── ansi.py
+│   │           │   │   │   ├── bar.py
+│   │           │   │   │   ├── box.py
+│   │           │   │   │   ├── cells.py
+│   │           │   │   │   ├── color.py
+│   │           │   │   │   ├── color_triplet.py
+│   │           │   │   │   ├── columns.py
+│   │           │   │   │   ├── console.py
+│   │           │   │   │   ├── constrain.py
+│   │           │   │   │   ├── containers.py
+│   │           │   │   │   ├── control.py
+│   │           │   │   │   ├── default_styles.py
+│   │           │   │   │   ├── diagnose.py
+│   │           │   │   │   ├── emoji.py
+│   │           │   │   │   ├── errors.py
+│   │           │   │   │   ├── file_proxy.py
+│   │           │   │   │   ├── filesize.py
+│   │           │   │   │   ├── highlighter.py
+│   │           │   │   │   ├── json.py
+│   │           │   │   │   ├── jupyter.py
+│   │           │   │   │   ├── layout.py
+│   │           │   │   │   ├── live.py
+│   │           │   │   │   ├── live_render.py
+│   │           │   │   │   ├── logging.py
+│   │           │   │   │   ├── markup.py
+│   │           │   │   │   ├── measure.py
+│   │           │   │   │   ├── padding.py
+│   │           │   │   │   ├── pager.py
+│   │           │   │   │   ├── palette.py
+│   │           │   │   │   ├── panel.py
+│   │           │   │   │   ├── pretty.py
+│   │           │   │   │   ├── progress.py
+│   │           │   │   │   ├── progress_bar.py
+│   │           │   │   │   ├── prompt.py
+│   │           │   │   │   ├── protocol.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── region.py
+│   │           │   │   │   ├── repr.py
+│   │           │   │   │   ├── rule.py
+│   │           │   │   │   ├── scope.py
+│   │           │   │   │   ├── screen.py
+│   │           │   │   │   ├── segment.py
+│   │           │   │   │   ├── spinner.py
+│   │           │   │   │   ├── status.py
+│   │           │   │   │   ├── style.py
+│   │           │   │   │   ├── styled.py
+│   │           │   │   │   ├── syntax.py
+│   │           │   │   │   ├── table.py
+│   │           │   │   │   ├── terminal_theme.py
+│   │           │   │   │   ├── text.py
+│   │           │   │   │   ├── theme.py
+│   │           │   │   │   ├── themes.py
+│   │           │   │   │   ├── traceback.py
+│   │           │   │   │   └── tree.py
+│   │           │   │   ├── tenacity/
+│   │           │   │   │   tenacity/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _asyncio.py
+│   │           │   │   │   ├── _utils.py
+│   │           │   │   │   ├── after.py
+│   │           │   │   │   ├── before.py
+│   │           │   │   │   ├── before_sleep.py
+│   │           │   │   │   ├── nap.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── retry.py
+│   │           │   │   │   ├── stop.py
+│   │           │   │   │   ├── tornadoweb.py
+│   │           │   │   │   └── wait.py
+│   │           │   │   ├── tomli/
+│   │           │   │   │   tomli/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _parser.py
+│   │           │   │   │   ├── _re.py
+│   │           │   │   │   ├── _types.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── truststore/
+│   │           │   │   │   truststore/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _api.py
+│   │           │   │   │   ├── _macos.py
+│   │           │   │   │   ├── _openssl.py
+│   │           │   │   │   ├── _ssl_constants.py
+│   │           │   │   │   ├── _windows.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── typing_extensions.py
+│   │           │   │   ├── urllib3/
+│   │           │   │   │   urllib3/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __pycache__/
+│   │           │   │   │   │   __pycache__/
+│   │           │   │   │   ├── _collections.py
+│   │           │   │   │   ├── _version.py
+│   │           │   │   │   ├── connection.py
+│   │           │   │   │   ├── connectionpool.py
+│   │           │   │   │   ├── contrib/
+│   │           │   │   │   │   contrib/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── _appengine_environ.py
+│   │           │   │   │   │   ├── _securetransport/
+│   │           │   │   │   │   │   _securetransport/
+│   │           │   │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   │   ├── bindings.py
+│   │           │   │   │   │   │   └── low_level.py
+│   │           │   │   │   │   ├── appengine.py
+│   │           │   │   │   │   ├── ntlmpool.py
+│   │           │   │   │   │   ├── pyopenssl.py
+│   │           │   │   │   │   ├── securetransport.py
+│   │           │   │   │   │   └── socks.py
+│   │           │   │   │   ├── exceptions.py
+│   │           │   │   │   ├── fields.py
+│   │           │   │   │   ├── filepost.py
+│   │           │   │   │   ├── packages/
+│   │           │   │   │   │   packages/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __pycache__/
+│   │           │   │   │   │   │   __pycache__/
+│   │           │   │   │   │   ├── backports/
+│   │           │   │   │   │   │   backports/
+│   │           │   │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   │   ├── makefile.py
+│   │           │   │   │   │   │   └── weakref_finalize.py
+│   │           │   │   │   │   └── six.py
+│   │           │   │   │   ├── poolmanager.py
+│   │           │   │   │   ├── request.py
+│   │           │   │   │   ├── response.py
+│   │           │   │   │   └── util/
+│   │           │   │   │       util/
+│   │           │   │   │       ├── __init__.py
+│   │           │   │   │       ├── __pycache__/
+│   │           │   │   │       │   __pycache__/
+│   │           │   │   │       ├── connection.py
+│   │           │   │   │       ├── proxy.py
+│   │           │   │   │       ├── queue.py
+│   │           │   │   │       ├── request.py
+│   │           │   │   │       ├── response.py
+│   │           │   │   │       ├── retry.py
+│   │           │   │   │       ├── ssl_.py
+│   │           │   │   │       ├── ssl_match_hostname.py
+│   │           │   │   │       ├── ssltransport.py
+│   │           │   │   │       ├── timeout.py
+│   │           │   │   │       ├── url.py
+│   │           │   │   │       └── wait.py
+│   │           │   │   └── vendor.txt
+│   │           │   └── py.typed
+│   │           ├── pip-24.1.dist-info/
+│   │           │   pip-24.1.dist-info/
+│   │           │   ├── AUTHORS.txt
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE.txt
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   ├── entry_points.txt
+│   │           │   └── top_level.txt
+│   │           ├── pip-24.1.virtualenv
+│   │           ├── pkg_resources/
+│   │           │   pkg_resources/
+│   │           │   ├── __init__.py
+│   │           │   ├── _vendor/
+│   │           │   │   _vendor/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── backports/
+│   │           │   │   │   backports/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   └── tarfile.py
+│   │           │   │   ├── importlib_resources/
+│   │           │   │   │   importlib_resources/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _adapters.py
+│   │           │   │   │   ├── _common.py
+│   │           │   │   │   ├── _compat.py
+│   │           │   │   │   ├── _itertools.py
+│   │           │   │   │   ├── _legacy.py
+│   │           │   │   │   ├── abc.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── readers.py
+│   │           │   │   │   └── simple.py
+│   │           │   │   ├── jaraco/
+│   │           │   │   │   jaraco/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── context.py
+│   │           │   │   │   ├── functools/
+│   │           │   │   │   │   functools/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __init__.pyi
+│   │           │   │   │   │   └── py.typed
+│   │           │   │   │   └── text/
+│   │           │   │   │       text/
+│   │           │   │   │       └── __init__.py
+│   │           │   │   ├── more_itertools/
+│   │           │   │   │   more_itertools/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __init__.pyi
+│   │           │   │   │   ├── more.py
+│   │           │   │   │   ├── more.pyi
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── recipes.py
+│   │           │   │   │   └── recipes.pyi
+│   │           │   │   ├── packaging/
+│   │           │   │   │   packaging/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _elffile.py
+│   │           │   │   │   ├── _manylinux.py
+│   │           │   │   │   ├── _musllinux.py
+│   │           │   │   │   ├── _parser.py
+│   │           │   │   │   ├── _structures.py
+│   │           │   │   │   ├── _tokenizer.py
+│   │           │   │   │   ├── markers.py
+│   │           │   │   │   ├── metadata.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── requirements.py
+│   │           │   │   │   ├── specifiers.py
+│   │           │   │   │   ├── tags.py
+│   │           │   │   │   ├── utils.py
+│   │           │   │   │   └── version.py
+│   │           │   │   ├── platformdirs/
+│   │           │   │   │   platformdirs/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __main__.py
+│   │           │   │   │   ├── android.py
+│   │           │   │   │   ├── api.py
+│   │           │   │   │   ├── macos.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── unix.py
+│   │           │   │   │   ├── version.py
+│   │           │   │   │   └── windows.py
+│   │           │   │   └── zipp.py
+│   │           │   └── extern/
+│   │           │       extern/
+│   │           │       └── __init__.py
+│   │           ├── pluggy/
+│   │           │   pluggy/
+│   │           │   ├── __init__.py
+│   │           │   ├── _callers.py
+│   │           │   ├── _hooks.py
+│   │           │   ├── _manager.py
+│   │           │   ├── _result.py
+│   │           │   ├── _tracing.py
+│   │           │   ├── _version.py
+│   │           │   ├── _warnings.py
+│   │           │   └── py.typed
+│   │           ├── pluggy-1.5.0.dist-info/
+│   │           │   pluggy-1.5.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   └── top_level.txt
+│   │           ├── py/
+│   │           │   py/
+│   │           │   ├── __init__.py
+│   │           │   ├── __init__.pyi
+│   │           │   ├── __metainfo.py
+│   │           │   ├── _builtin.py
+│   │           │   ├── _code/
+│   │           │   │   _code/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── _assertionnew.py
+│   │           │   │   ├── _assertionold.py
+│   │           │   │   ├── _py2traceback.py
+│   │           │   │   ├── assertion.py
+│   │           │   │   ├── code.py
+│   │           │   │   └── source.py
+│   │           │   ├── _error.py
+│   │           │   ├── _io/
+│   │           │   │   _io/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── capture.py
+│   │           │   │   ├── saferepr.py
+│   │           │   │   └── terminalwriter.py
+│   │           │   ├── _log/
+│   │           │   │   _log/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── log.py
+│   │           │   │   └── warning.py
+│   │           │   ├── _path/
+│   │           │   │   _path/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── cacheutil.py
+│   │           │   │   ├── common.py
+│   │           │   │   ├── local.py
+│   │           │   │   ├── svnurl.py
+│   │           │   │   └── svnwc.py
+│   │           │   ├── _process/
+│   │           │   │   _process/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── cmdexec.py
+│   │           │   │   ├── forkedfunc.py
+│   │           │   │   └── killproc.py
+│   │           │   ├── _std.py
+│   │           │   ├── _vendored_packages/
+│   │           │   │   _vendored_packages/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── apipkg/
+│   │           │   │   │   apipkg/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   └── version.py
+│   │           │   │   ├── apipkg-2.0.0.dist-info/
+│   │           │   │   │   apipkg-2.0.0.dist-info/
+│   │           │   │   │   ├── INSTALLER
+│   │           │   │   │   ├── LICENSE
+│   │           │   │   │   ├── METADATA
+│   │           │   │   │   ├── RECORD
+│   │           │   │   │   ├── REQUESTED
+│   │           │   │   │   ├── WHEEL
+│   │           │   │   │   └── top_level.txt
+│   │           │   │   ├── iniconfig/
+│   │           │   │   │   iniconfig/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __init__.pyi
+│   │           │   │   │   └── py.typed
+│   │           │   │   └── iniconfig-1.1.1.dist-info/
+│   │           │   │       iniconfig-1.1.1.dist-info/
+│   │           │   │       ├── INSTALLER
+│   │           │   │       ├── LICENSE
+│   │           │   │       ├── METADATA
+│   │           │   │       ├── RECORD
+│   │           │   │       ├── REQUESTED
+│   │           │   │       ├── WHEEL
+│   │           │   │       └── top_level.txt
+│   │           │   ├── _version.py
+│   │           │   ├── _xmlgen.py
+│   │           │   ├── error.pyi
+│   │           │   ├── iniconfig.pyi
+│   │           │   ├── io.pyi
+│   │           │   ├── path.pyi
+│   │           │   ├── py.typed
+│   │           │   ├── test.py
+│   │           │   └── xml.pyi
+│   │           ├── py-1.11.0.dist-info/
+│   │           │   py-1.11.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   └── top_level.txt
+│   │           ├── pytest/
+│   │           │   pytest/
+│   │           │   ├── __init__.py
+│   │           │   ├── __main__.py
+│   │           │   ├── collect.py
+│   │           │   └── py.typed
+│   │           ├── pytest-6.2.5.dist-info/
+│   │           │   pytest-6.2.5.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   ├── entry_points.txt
+│   │           │   └── top_level.txt
+│   │           ├── setuptools/
+│   │           │   setuptools/
+│   │           │   ├── __init__.py
+│   │           │   ├── _core_metadata.py
+│   │           │   ├── _distutils/
+│   │           │   │   _distutils/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── _collections.py
+│   │           │   │   ├── _functools.py
+│   │           │   │   ├── _itertools.py
+│   │           │   │   ├── _log.py
+│   │           │   │   ├── _macos_compat.py
+│   │           │   │   ├── _modified.py
+│   │           │   │   ├── _msvccompiler.py
+│   │           │   │   ├── archive_util.py
+│   │           │   │   ├── bcppcompiler.py
+│   │           │   │   ├── ccompiler.py
+│   │           │   │   ├── cmd.py
+│   │           │   │   ├── command/
+│   │           │   │   │   command/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _framework_compat.py
+│   │           │   │   │   ├── bdist.py
+│   │           │   │   │   ├── bdist_dumb.py
+│   │           │   │   │   ├── bdist_rpm.py
+│   │           │   │   │   ├── build.py
+│   │           │   │   │   ├── build_clib.py
+│   │           │   │   │   ├── build_ext.py
+│   │           │   │   │   ├── build_py.py
+│   │           │   │   │   ├── build_scripts.py
+│   │           │   │   │   ├── check.py
+│   │           │   │   │   ├── clean.py
+│   │           │   │   │   ├── config.py
+│   │           │   │   │   ├── install.py
+│   │           │   │   │   ├── install_data.py
+│   │           │   │   │   ├── install_egg_info.py
+│   │           │   │   │   ├── install_headers.py
+│   │           │   │   │   ├── install_lib.py
+│   │           │   │   │   ├── install_scripts.py
+│   │           │   │   │   ├── register.py
+│   │           │   │   │   ├── sdist.py
+│   │           │   │   │   └── upload.py
+│   │           │   │   ├── compat/
+│   │           │   │   │   compat/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   └── py38.py
+│   │           │   │   ├── config.py
+│   │           │   │   ├── core.py
+│   │           │   │   ├── cygwinccompiler.py
+│   │           │   │   ├── debug.py
+│   │           │   │   ├── dep_util.py
+│   │           │   │   ├── dir_util.py
+│   │           │   │   ├── dist.py
+│   │           │   │   ├── errors.py
+│   │           │   │   ├── extension.py
+│   │           │   │   ├── fancy_getopt.py
+│   │           │   │   ├── file_util.py
+│   │           │   │   ├── filelist.py
+│   │           │   │   ├── log.py
+│   │           │   │   ├── msvc9compiler.py
+│   │           │   │   ├── msvccompiler.py
+│   │           │   │   ├── py38compat.py
+│   │           │   │   ├── py39compat.py
+│   │           │   │   ├── spawn.py
+│   │           │   │   ├── sysconfig.py
+│   │           │   │   ├── text_file.py
+│   │           │   │   ├── unixccompiler.py
+│   │           │   │   ├── util.py
+│   │           │   │   ├── version.py
+│   │           │   │   ├── versionpredicate.py
+│   │           │   │   └── zosccompiler.py
+│   │           │   ├── _entry_points.py
+│   │           │   ├── _imp.py
+│   │           │   ├── _importlib.py
+│   │           │   ├── _itertools.py
+│   │           │   ├── _normalization.py
+│   │           │   ├── _path.py
+│   │           │   ├── _reqs.py
+│   │           │   ├── _vendor/
+│   │           │   │   _vendor/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── backports/
+│   │           │   │   │   backports/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   └── tarfile.py
+│   │           │   │   ├── importlib_metadata/
+│   │           │   │   │   importlib_metadata/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _adapters.py
+│   │           │   │   │   ├── _collections.py
+│   │           │   │   │   ├── _compat.py
+│   │           │   │   │   ├── _functools.py
+│   │           │   │   │   ├── _itertools.py
+│   │           │   │   │   ├── _meta.py
+│   │           │   │   │   ├── _py39compat.py
+│   │           │   │   │   ├── _text.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── importlib_resources/
+│   │           │   │   │   importlib_resources/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _adapters.py
+│   │           │   │   │   ├── _common.py
+│   │           │   │   │   ├── _compat.py
+│   │           │   │   │   ├── _itertools.py
+│   │           │   │   │   ├── _legacy.py
+│   │           │   │   │   ├── abc.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── readers.py
+│   │           │   │   │   └── simple.py
+│   │           │   │   ├── jaraco/
+│   │           │   │   │   jaraco/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── context.py
+│   │           │   │   │   ├── functools/
+│   │           │   │   │   │   functools/
+│   │           │   │   │   │   ├── __init__.py
+│   │           │   │   │   │   ├── __init__.pyi
+│   │           │   │   │   │   └── py.typed
+│   │           │   │   │   └── text/
+│   │           │   │   │       text/
+│   │           │   │   │       └── __init__.py
+│   │           │   │   ├── more_itertools/
+│   │           │   │   │   more_itertools/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── __init__.pyi
+│   │           │   │   │   ├── more.py
+│   │           │   │   │   ├── more.pyi
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── recipes.py
+│   │           │   │   │   └── recipes.pyi
+│   │           │   │   ├── ordered_set.py
+│   │           │   │   ├── packaging/
+│   │           │   │   │   packaging/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _elffile.py
+│   │           │   │   │   ├── _manylinux.py
+│   │           │   │   │   ├── _musllinux.py
+│   │           │   │   │   ├── _parser.py
+│   │           │   │   │   ├── _structures.py
+│   │           │   │   │   ├── _tokenizer.py
+│   │           │   │   │   ├── markers.py
+│   │           │   │   │   ├── metadata.py
+│   │           │   │   │   ├── py.typed
+│   │           │   │   │   ├── requirements.py
+│   │           │   │   │   ├── specifiers.py
+│   │           │   │   │   ├── tags.py
+│   │           │   │   │   ├── utils.py
+│   │           │   │   │   └── version.py
+│   │           │   │   ├── tomli/
+│   │           │   │   │   tomli/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── _parser.py
+│   │           │   │   │   ├── _re.py
+│   │           │   │   │   ├── _types.py
+│   │           │   │   │   └── py.typed
+│   │           │   │   ├── wheel/
+│   │           │   │   │   wheel/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── macosx_libfile.py
+│   │           │   │   │   ├── metadata.py
+│   │           │   │   │   ├── util.py
+│   │           │   │   │   └── wheelfile.py
+│   │           │   │   └── zipp.py
+│   │           │   ├── archive_util.py
+│   │           │   ├── build_meta.py
+│   │           │   ├── command/
+│   │           │   │   command/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── _requirestxt.py
+│   │           │   │   ├── alias.py
+│   │           │   │   ├── bdist_egg.py
+│   │           │   │   ├── bdist_rpm.py
+│   │           │   │   ├── bdist_wheel.py
+│   │           │   │   ├── build.py
+│   │           │   │   ├── build_clib.py
+│   │           │   │   ├── build_ext.py
+│   │           │   │   ├── build_py.py
+│   │           │   │   ├── develop.py
+│   │           │   │   ├── dist_info.py
+│   │           │   │   ├── easy_install.py
+│   │           │   │   ├── editable_wheel.py
+│   │           │   │   ├── egg_info.py
+│   │           │   │   ├── install.py
+│   │           │   │   ├── install_egg_info.py
+│   │           │   │   ├── install_lib.py
+│   │           │   │   ├── install_scripts.py
+│   │           │   │   ├── launcher manifest.xml
+│   │           │   │   ├── register.py
+│   │           │   │   ├── rotate.py
+│   │           │   │   ├── saveopts.py
+│   │           │   │   ├── sdist.py
+│   │           │   │   ├── setopt.py
+│   │           │   │   ├── test.py
+│   │           │   │   ├── upload.py
+│   │           │   │   └── upload_docs.py
+│   │           │   ├── compat/
+│   │           │   │   compat/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── py310.py
+│   │           │   │   ├── py311.py
+│   │           │   │   └── py39.py
+│   │           │   ├── config/
+│   │           │   │   config/
+│   │           │   │   ├── __init__.py
+│   │           │   │   ├── _apply_pyprojecttoml.py
+│   │           │   │   ├── _validate_pyproject/
+│   │           │   │   │   _validate_pyproject/
+│   │           │   │   │   ├── __init__.py
+│   │           │   │   │   ├── error_reporting.py
+│   │           │   │   │   ├── extra_validations.py
+│   │           │   │   │   ├── fastjsonschema_exceptions.py
+│   │           │   │   │   ├── fastjsonschema_validations.py
+│   │           │   │   │   └── formats.py
+│   │           │   │   ├── expand.py
+│   │           │   │   ├── pyprojecttoml.py
+│   │           │   │   └── setupcfg.py
+│   │           │   ├── depends.py
+│   │           │   ├── discovery.py
+│   │           │   ├── dist.py
+│   │           │   ├── errors.py
+│   │           │   ├── extension.py
+│   │           │   ├── extern/
+│   │           │   │   extern/
+│   │           │   │   └── __init__.py
+│   │           │   ├── glob.py
+│   │           │   ├── installer.py
+│   │           │   ├── launch.py
+│   │           │   ├── logging.py
+│   │           │   ├── modified.py
+│   │           │   ├── monkey.py
+│   │           │   ├── msvc.py
+│   │           │   ├── namespaces.py
+│   │           │   ├── package_index.py
+│   │           │   ├── sandbox.py
+│   │           │   ├── script (dev).tmpl
+│   │           │   ├── script.tmpl
+│   │           │   ├── unicode_utils.py
+│   │           │   ├── version.py
+│   │           │   ├── warnings.py
+│   │           │   ├── wheel.py
+│   │           │   └── windows_support.py
+│   │           ├── setuptools-70.1.0.dist-info/
+│   │           │   setuptools-70.1.0.dist-info/
+│   │           │   ├── INSTALLER
+│   │           │   ├── LICENSE
+│   │           │   ├── METADATA
+│   │           │   ├── RECORD
+│   │           │   ├── WHEEL
+│   │           │   ├── entry_points.txt
+│   │           │   └── top_level.txt
+│   │           ├── setuptools-70.1.0.virtualenv
+│   │           ├── toml/
+│   │           │   toml/
+│   │           │   ├── __init__.py
+│   │           │   ├── decoder.py
+│   │           │   ├── encoder.py
+│   │           │   ├── ordered.py
+│   │           │   └── tz.py
+│   │           └── toml-0.10.2.dist-info/
+│   │               toml-0.10.2.dist-info/
+│   │               ├── INSTALLER
+│   │               ├── LICENSE
+│   │               ├── METADATA
+│   │               ├── RECORD
+│   │               ├── WHEEL
+│   │               └── top_level.txt
+│   └── pyvenv.cfg
+├── README.md
+├── directory_structure.zip
+├── docs/
+│   docs/
+│   ├── High-Level-Design.md
+│   ├── gitignore-parser-info.md
+│   └── structure.txt
+├── hierarchy/
+│   hierarchy/
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   __pycache__/
+│   ├── bin/
+│   │   bin/
+│   ├── directory_tree.py
+│   ├── gitignore_handler.py
+│   └── main.py
+├── poetry.lock
+├── pyproject.toml
+├── requirements.txt
+├── setup.py
+├── src/
+│   hierarchy/
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   __pycache__/
+│   ├── bin/
+│   │   bin/
+│   ├── directory_tree.py
+│   ├── gitignore_handler.py
+│   └── main.py
+└── tests/
+    tests/
+    ├── __init__.py
+    ├── test_directory_tree.py
+    ├── test_gitignore_handler.py
+    └── test_main.py
+
+Directory structure zipped into: /c/-/self/src/command/hierarchy/directory_structure.zip
+
+Script done on 2024-07-27 14:19:23-04:00 [COMMAND_EXIT_CODE="0"]

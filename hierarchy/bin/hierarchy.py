@@ -1,5 +1,6 @@
-"""
-Hierarchy
+#!/usr/bin/env python
+
+"""Hierarchy
 
 Usage:
   hierarchy [options] <directory>
@@ -41,8 +42,15 @@ Examples:
 """
 
 from docopt import docopt
+import toml
+import os
 from hierarchy.app import app
 
+def get_version():
+    pyproject_path = os.path.join(os.path.dirname(__file__), '..', '..', 'pyproject.toml')
+    pyproject = toml.load(pyproject_path)
+    return pyproject['tool']['poetry']['version']
+
 if __name__ == "__main__":
-    args = docopt(__doc__, version="Hierarchy 0.1.0")
+    args = docopt(__doc__, version=get_version())
     app(args)

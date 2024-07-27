@@ -1,19 +1,26 @@
 import os
-from gitignore_parser import parse_gitignore
+import pathspec
 
 class GitignoreHandler:
-    def __init__(self, paths):
-        self.base_path = os.path.dirname(os.path.abspath(paths[0]))  # Use the first .gitignore file's directory as base path
-        self.matchers = self._load_gitignore_files(paths)
+    def __init__(self, gitignore_paths):
+        print(f"Initializing GitignoreHandler with paths: {gitignore_paths}")
+        self.specs = self._load_gitignore_files(gitignore_paths)
 
     def _load_gitignore_files(self, paths):
-        matchers = []
+        specs = []
         for path in paths:
-            if os.path.exists(path):
-                matchers.append(parse_gitignore(path))
-        return matchers
+            real_path = os.path.realpath(path)  # Resolve symbolic links
+            if os.path.exists(real_path):
+                with open(real_path, 'r') as f:
+                    spec = pathspec.PathSpec.from_lines('gitwildmatch', f)
+                    specs.append((spec, os.path.dirname(real_path)))
+        return specs
 
     def is_ignored(self, filepath):
-        abs_filepath = os.path.abspath(filepath)
-        rel_filepath = os.path.relpath(abs_filepath, self.base_path)
-        return any(matcher(rel_filepath) for matcher in self.matchers)
+        abs_filepath = os.path.realpath(filepath)  # Convert to absolute path
+        for spec, base_dir in self.specs:
+            rel_filepath = os.path.relpath(abs_filepath, base_dir)  # Relative to .gitignore's directory
+            if spec.match_file(rel_filepath):
+                print(f"File {filepath} is ignored by {base_dir}/.gitignore")
+                return True
+        return False

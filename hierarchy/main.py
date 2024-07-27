@@ -1,30 +1,50 @@
+"""
+Hierarchy
+
+Usage:
+  hierarchy [options] <directory>
+  hierarchy (-h | --help)
+  hierarchy --version
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+"""
 
 import os
-import argparse
 from hierarchy.gitignore_handler import GitignoreHandler
 from hierarchy.directory_tree import DirectoryTree
+from docopt import docopt
 
-def main():
-    parser = argparse.ArgumentParser(description='Print directory hierarchy and create a zip file.')
-    parser.add_argument('directory', nargs='?', default=os.getcwd(), help='Target directory to list and zip (default: current directory)')
-    args = parser.parse_args()
-
-    directory_to_zip = args.directory
-    output_zip = os.path.join(directory_to_zip, 'directory_structure.zip')
-
+def main(args):
+    print("Starting main function")
+    directory = os.path.realpath(args['<directory>'])
+    print(f"Resolved directory: {directory}")
+    
+    # Define paths for .gitignore files
     gitignore_paths = [
-        os.path.join(directory_to_zip, '.gitignore'),
+        os.path.join(directory, '.gitignore'),
         os.path.expanduser('~/.gitignore'),
         '/etc/gitignore'
     ]
+    print(f"Gitignore paths: {gitignore_paths}")
 
+    # Initialize GitignoreHandler
     gitignore_handler = GitignoreHandler(gitignore_paths)
-    directory_tree = DirectoryTree(directory_to_zip, gitignore_handler)
+    print("Initialized GitignoreHandler")
 
-    tree_structure_output = directory_tree.create_zip(output_zip)
+    # Initialize DirectoryTree
+    directory_tree = DirectoryTree(directory, gitignore_handler)
+    print("Initialized DirectoryTree")
 
+    # Create zip and generate tree structure
+    tree_structure_output = directory_tree.create_zip(os.path.join(directory, 'directory_structure.zip'))
+    print("Created zip file")
+
+    # Print tree structure
     print(tree_structure_output)
-    print(f"\nDirectory structure zipped into: {output_zip}")
+    print(f"\nDirectory structure zipped into: {os.path.join(directory, 'directory_structure.zip')}")
 
 if __name__ == "__main__":
-    main()
+    args = docopt(__doc__, version="Hierarchy 0.1.0")
+    main(args)

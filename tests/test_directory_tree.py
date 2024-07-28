@@ -1,50 +1,44 @@
 import os
-import tempfile
-import unittest
-from hierarchy.directory_tree import DirectoryTree
-from hierarchy.gitignore_handler import GitignoreHandler
+import pytest
+from pdirtree.directory_tree import DirectoryTree
+from pdirtree.gitignore_handler import GitignoreHandler
+from pdirtree.tree_node import TreeNode
 
-class TestDirectoryTree(unittest.TestCase):
-    def setUp(self):
-        self.temp_dir = tempfile.TemporaryDirectory()
-        self.root_dir = self.temp_dir.name
-        os.makedirs(os.path.join(self.root_dir, 'subdir'))
-        with open(os.path.join(self.root_dir, 'file.txt'), 'w') as f:
-            f.write('test file')
-        with open(os.path.join(self.root_dir, 'subdir', 'file.py'), 'w') as f:
-            f.write('test file')
+example_dir = '/mnt/data/pdtree/example'
 
-        self.gitignore_path = os.path.join(self.root_dir, '.gitignore')
-        with open(self.gitignore_path, 'w') as f:
-            f.write('*.py\n')
+def test_empty_directory():
+    gitignore_handler = GitignoreHandler([])
+    directory_tree = DirectoryTree(root_dir=os.path.join(example_dir, 'empty_dir'), gitignore_handler=gitignore_handler)
+    tree = directory_tree.build_tree()
+    assert isinstance(tree, TreeNode)
+    assert len(tree.children) == 0
 
-        self.gitignore_handler = GitignoreHandler([self.gitignore_path])
-        self.directory_tree = DirectoryTree(self.root_dir, self.gitignore_handler)
+def test_nested_directories():
+    gitignore_handler = GitignoreHandler([])
+    directory_tree = DirectoryTree(root_dir=os.path.join(example_dir, 'nested'), gitignore_handler=gitignore_handler)
+    tree = directory_tree.build_tree()
+    assert isinstance(tree, TreeNode)
+    assert len(tree.children) == 1
+    assert tree.children[0].name == "dir"
 
-    def tearDown(self):
-        self.temp_dir.cleanup()
+def test_symbolic_links():
+    gitignore_handler = GitignoreHandler([])
+    directory_tree = DirectoryTree(root_dir=os.path.join(example_dir, 'symlink'), gitignore_handler=gitignore_handler)
+    tree = directory_tree.build_tree()
+    assert isinstance(tree, TreeNode)
+    assert any(child.name == "link.txt" for child in tree.children)
 
-    def test_build_tree_structure(self):
-        tree_structure = self.directory_tree.build_tree_structure()
-        expected_structure = [
-            os.path.basename(self.root_dir) + '/',
-            '│   ├── .gitignore',
-            '│   ├── file.txt',
-            '│   └── subdir/',
-        ]
-        self.assertEqual(tree_structure[:3], expected_structure[:3])
+def test_large_directory():
+    gitignore_handler = GitignoreHandler([])
+    directory_tree = DirectoryTree(root_dir=os.path.join(example_dir, 'large'), gitignore_handler=gitignore_handler)
+    tree = directory_tree.build_tree()
+    assert isinstance(tree, TreeNode)
+    assert len(tree.children) == 1000
 
-    def test_create_zip(self):
-        output_zip = os.path.join(self.root_dir, 'directory_structure.zip')
-        tree_structure_output = self.directory_tree.create_zip(output_zip)
-        self.assertTrue(os.path.exists(output_zip))
-        expected_structure_output = "\n".join([
-            os.path.basename(self.root_dir) + '/',
-            '│   ├── .gitignore',
-            '│   ├── file.txt',
-            '│   └── subdir/',
-        ])
-        self.assertIn(expected_structure_output, tree_structure_output)
-
-if __name__ == '__main__':
-    unittest.main()
+def test_complex_gitignore_patterns():
+    gitignore_handler = GitignoreHandler([os.path.join(example_dir, '.gitignore')])
+    directory_tree = DirectoryTree(root_dir=example_dir, gitignore_handler=gitignore_handler)
+    tree = directory_tree.build_tree()
+    assert isinstance(tree, TreeNode)
+    assert any(child.name == "file.txt" for child in tree.children)
+    assert not any(child.name == "file.py" for child in tree.children)

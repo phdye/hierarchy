@@ -2,7 +2,7 @@
 # API Documentation
 
 ## Introduction
-The `hierarchy` project provides an API for generating and displaying the directory structure of a given directory. The API respects `.gitignore` rules and can optionally generate a zip file of the directory structure.
+The `pdirtree` project provides an API for generating and displaying the directory structure of a given directory. The API respects `.gitignore` rules and can optionally generate a zip file of the directory structure.
 
 ## Modules and Classes
 
@@ -121,4 +121,4 @@ directory_tree.create_zip("/path/to/output.zip")
 
 ## Example Directory
 
-An example directory named `example` has been created to demonstrate the usage of the API. It contains a fake test hierarchy to showcase how the API works.
+An example directory named `example` has been created to demonstrate the usage of the API. It contains a fake test pdirtree to showcase how the API works.

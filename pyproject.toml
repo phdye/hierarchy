@@ -1,13 +1,17 @@
 [tool.poetry]
-name = "hierarchy"
+name = "pdirtree"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <your.email@example.com>"]
+description = "Generate and display the directory structure of a given directory."
+authors = ["Philip Dye <phdye@acm.org>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
-docopt = "^0.6.2"
+python = "^3.8"
 pathspec = "^0.12.1"
+docopt = "^0.6.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.4"
+pytest = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

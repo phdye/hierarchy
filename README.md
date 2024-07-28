@@ -1,8 +1,8 @@
 
-# hierarchy
+# pdirtree
 
 ## Introduction
-The `hierarchy` project is a command-line tool designed to generate and display the directory structure of a given directory. It supports ignoring files and directories based on `.gitignore` rules and can optionally generate a zip file of the directory structure.
+The `pdirtree` project is a command-line tool designed to generate and display the directory structure of a given directory. It supports ignoring files and directories based on `.gitignore` rules and can optionally generate a zip file of the directory structure.
 
 ## Features
 - Display directory structure in a tree-like format.
@@ -20,8 +20,8 @@ The `hierarchy` project is a command-line tool designed to generate and display 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/phdye/hierarchy.git
-   cd hierarchy
+   git clone https://github.com/phdye/pdirtree.git
+   cd pdirtree
    ```
 2. Install dependencies using Poetry:
    ```bash
@@ -34,27 +34,27 @@ The `hierarchy` project is a command-line tool designed to generate and display 
 
 Display the structure of the current directory:
 ```bash
-hierarchy .
+pdirtree .
 ```
 
 Display the structure of a specific directory:
 ```bash
-hierarchy /path/to/directory
+pdirtree /path/to/directory
 ```
 
 Generate a zip file of the directory structure:
 ```bash
-hierarchy --zip /path/to/directory
+pdirtree --zip /path/to/directory
 ```
 
 Generate a zip file without displaying the structure:
 ```bash
-hierarchy --zip --no-display /path/to/directory
+pdirtree --zip --no-display /path/to/directory
 ```
 
 Display the version of the tool:
 ```bash
-hierarchy --version
+pdirtree --version
 ```
 
 ### API
@@ -62,8 +62,8 @@ hierarchy --version
 #### Example
 
 ```python
-from hierarchy.directory_tree import DirectoryTree
-from hierarchy.gitignore_handler import GitignoreHandler
+from pdirtree.directory_tree import DirectoryTree
+from pdirtree.gitignore_handler import GitignoreHandler
 
 gitignore_handler = GitignoreHandler(["/path/to/.gitignore"])
 directory_tree = DirectoryTree(root_dir="/path/to/directory", gitignore_handler=gitignore_handler)
@@ -80,12 +80,12 @@ directory_tree.create_zip("/path/to/output.zip")
 ## Examples
 Display the structure of the current directory:
 ```bash
-hierarchy .
+pdirtree .
 ```
 
 Generate a zip file of the directory structure:
 ```bash
-hierarchy --zip /path/to/directory
+pdirtree --zip /path/to/directory
 ```
 
 ## Contributing

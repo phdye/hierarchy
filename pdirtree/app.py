@@ -1,8 +1,8 @@
 import os
-from hierarchy.gitignore_handler import GitignoreHandler
-from hierarchy.directory_tree import DirectoryTree
-from hierarchy.zip_creator import ZipCreator
-from hierarchy.tree_node import TreeNode
+from pdirtree.gitignore_handler import GitignoreHandler
+from pdirtree.directory_tree import DirectoryTree
+from pdirtree.zip_creator import ZipCreator
+from pdirtree.tree_node import TreeNode
 
 def display_tree(node, prefix=''):
     """

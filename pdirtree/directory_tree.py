@@ -1,5 +1,5 @@
 import os
-from hierarchy.tree_node import TreeNode
+from pdirtree.tree_node import TreeNode
 
 class DirectoryTree:
     def __init__(self, root_dir, gitignore_handler=None):

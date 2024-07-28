@@ -1,6 +1,6 @@
 ### High-Level Design Document
 
-#### Project Name: hierarchy
+#### Project Name: pdirtree
 
 #### Author: Philip Dye
 
@@ -10,7 +10,7 @@
 
 ### 1. Overview
 
-The `hierarchy` project is a command-line tool designed to generate and display the directory structure of a given directory. It supports ignoring files and directories based on `.gitignore` rules and can optionally generate a zip file of the directory structure.
+The `pdirtree` project is a command-line tool designed to generate and display the directory structure of a given directory. It supports ignoring files and directories based on `.gitignore` rules and can optionally generate a zip file of the directory structure.
 
 ### 2. Objectives
 
@@ -42,7 +42,7 @@ The `hierarchy` project is a command-line tool designed to generate and display 
    - Recursively displays the directory tree structure starting from a given `TreeNode`.
 
 5. **Command-Line Interface (CLI)**
-   - Command: `hierarchy`.
+   - Command: `pdirtree`.
    - Uses `docopt` for argument parsing.
    - Options: `-h --help`, `--version`, `--zip`.
 
@@ -99,7 +99,7 @@ The `hierarchy` project is a command-line tool designed to generate and display 
   - `prefix`: The prefix to use for the current level of the tree structure.
 
 #### 5.5 Command-Line Interface (CLI)
-- **Command**: `hierarchy`
+- **Command**: `pdirtree`
 - **Purpose**: Parses command-line arguments and invokes the core functionality.
 - **Options**:
   - `-h --help`: Shows the help message.
@@ -114,8 +114,8 @@ The `hierarchy` project is a command-line tool designed to generate and display 
 
 ### 7. Conclusion
 
-The `hierarchy` project provides a flexible and efficient way to display and manage directory structures while respecting .gitignore rules. By separating core functionality from display logic and using a tree data structure, the project ensures modularity and ease of maintenance. Future enhancements can further improve its functionality and performance.
+The `pdirtree` project provides a flexible and efficient way to display and manage directory structures while respecting .gitignore rules. By separating core functionality from display logic and using a tree data structure, the project ensures modularity and ease of maintenance. Future enhancements can further improve its functionality and performance.
 
 ---
 
-This high-level design document provides an overview of the `hierarchy` project, outlining its objectives, components, workflow, and future enhancements. Please review the document and let me know if there are any adjustments or additional details needed.
+This high-level design document provides an overview of the `pdirtree` project, outlining its objectives, components, workflow, and future enhancements. Please review the document and let me know if there are any adjustments or additional details needed.
